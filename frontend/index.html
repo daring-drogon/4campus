@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>4campus</title>
+</head>
+
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+    <!--Header-->
+    <div class="header container">
+        <div class="d-inline-flex campus">
+            <a class="project">4Campus</a>
+        </div>
+        <div class="d-inline-flex title">
+            <span id="the_title" class="the_title">Search Directly to Your Campus</span>
+        </div>
+    </div>
+    <!--///-->
+
+    <!--Search Menu-->
+    <div class="formsearch container">
+        <div class="row justify-content-center">
+            <label class="labelcontent">Type Campus Name or City</label>
+            <div class="col-10 col-md-8 col-lg-10">
+                <form class="card card-sm">
+                    <div class="card-body row no-gutters align-items-center">
+                        <div class="col">
+                            <input class="form-control input-default form-control-borderless" type="text" id="inputdefault" onkeyup="myFilter()" placeholder="Type here...">
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn" type="submit" style="background-color: transparent" >
+                                <img src="./image/search.png" width="25px" height="25px">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+   
+
+    <!--Search Result-->
+    <div>
+        <h1 class="text-center mt-3" style="font-family: 'Signika', sans-serif;">Universities in Riau Island</h1>
+        <div id="campus-riauisland" class="row justify-content-center"></div>
+    </div>
+    <!--///-->
+
+
+
+    <div class="footer">
+        <p align="center" style="font-family: 'Signika', sans-serif; font-size: 12px;">Copyleft-2018 indraakkk+dilla</p>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="./filter.js"></script>
+
+</body>
+
+</html>
+

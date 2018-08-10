@@ -1,16 +1,7 @@
-## ukmkita learning project
+## 4campus
 
-ukmkita.now.sh as basic domain
+Help you to find your dream universities
 
-## config folder hidden
+![fourcampus](./fourcampus.png)
 
-you can setup for your project like below and put in config folder
-
-```
-module.exports={
-    'url':'mongodb://<dbusername>:<dbpassword>@ds119072.mlab.com:19072/dbname'
-}
-```
-
-
-
+## local server
